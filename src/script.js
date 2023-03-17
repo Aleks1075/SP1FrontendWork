@@ -459,7 +459,14 @@ deleteBtn.addEventListener("click", async function (event) {
         if (response.ok) {
             const deletedPerson = await response.json();
             console.log("Person deleted:", deletedPerson);
-            // Display a success message or update the UI
+
+            // Send the user to the top of the screen
+            window.scrollTo(0, 0);
+
+            // Display a success message
+            const successMsg = document.getElementById("success-message");
+            successMsg.textContent = "Person deleted successfully.";
+
         } else {
             throw new Error(`Error ${response.status}: ${response.statusText}`);
         }
@@ -468,5 +475,3 @@ deleteBtn.addEventListener("click", async function (event) {
         // Display an error message or update the UI
     }
 });
-
-
