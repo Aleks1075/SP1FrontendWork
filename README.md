@@ -11,8 +11,7 @@ Denne iteration fokuserer på implementering af en simpel Single Page Applicatio
 - Få alle mennesker med en given hobby
 - Få en liste over alle postnumre i Danmark
 - Opret en person (med hobbyer, telefon, adresse osv.)
-- Slet en adresse
-- Rediger en person for at ændre hobbyer og telefonnumre osv.
+- Slet en person
 
 ## Kom godt i gang
 For at komme i gang med projektet skal du:
