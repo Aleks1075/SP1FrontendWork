@@ -8,7 +8,7 @@ Denne iteration fokuserer på implementering af en simpel Single Page Applicatio
 
 - Få alle personer med en given hobby
 - Få alle personer, der bor i en given by (f.eks. 2800 Lyngby)
-- Få alle mennesker med en given hobby
+- Få alle mennesker med en givent nummer
 - Få en liste over alle postnumre i Danmark
 - Opret en person (med hobbyer, telefon, adresse osv.)
 - Slet en person
